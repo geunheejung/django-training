@@ -23,4 +23,5 @@ urlpatterns = [
     # include 된 URLconf로 전달된다.
     path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
+    path('', admin.site.urls),
 ]
